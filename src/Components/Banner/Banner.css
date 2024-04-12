@@ -1,0 +1,60 @@
+.banner{
+    background-image: url('https://i0.wp.com/picjumbo.com/wp-content/uploads/beautiful-nature-mountain-scenery-with-flowers-free-photo.jpg?w=600&quality=80');
+    height: 300px;
+    border-radius: 25px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display:flex;
+    justify-content: space-between;
+    opacity: 0.8;
+    color: white;
+
+}
+.banner_left{
+    color: white;
+    padding: 30px;
+}
+.banner_right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+   
+    width: 280px;
+    background-color: #232327;
+    margin: 20px;
+    height: 280px;
+    color: whitesmoke;
+    padding: 10px;
+
+}
+
+.banner_card_image_con img {
+    width: 60px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.banner_card_image_con{
+    display: flex;
+}
+
+@media (min-width:320px)  {
+    .banner{
+        display: none;
+    }
+}
+@media only screen and (min-width:321px) and (max-width:768px){
+    .banner{
+        display: none;
+    }
+}
+@media only screen and (min-width: 992px){
+    /* .banner{
+        display: block;
+    } */
+}

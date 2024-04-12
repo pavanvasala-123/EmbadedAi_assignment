@@ -1,0 +1,20 @@
+.try_these_card{
+    display: flex;
+    min-width: 312px;
+    background-color:#ECECEE;
+    max-height: 80px;
+    margin: 10px;
+    border-radius: 25px;
+    padding: 10px;
+}
+.try_these_card:hover{
+    background-color: #cdcdd4;
+}
+.heading{
+    font-weight: 500;
+}
+.try_these_card img {
+    border-radius: 50%;
+    width: 60px;
+    margin-right: 10px;
+}

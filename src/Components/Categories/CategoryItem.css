@@ -1,0 +1,14 @@
+.categoryItem{
+    background-color: #ECECEE;
+    margin: 5px;
+    border-radius: 5px;
+    max-width: 300px;
+}
+.categoryItem p{
+    padding: 10px;
+    width:min-content;
+    white-space: nowrap;
+}
+.categoryItem p:hover{
+    font-weight: bold;
+}

@@ -1,0 +1,10 @@
+.categoty_con{
+    margin: 30px 20px 30px 20px;
+    display: flex;
+    overflow-x: auto;
+    width: 100%;
+}
+
+.categoty_con::-webkit-scrollbar{
+    display:none;
+}

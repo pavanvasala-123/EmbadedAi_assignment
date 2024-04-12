@@ -1,0 +1,23 @@
+.trysaying_card{
+    display: flex;
+    flex-direction: column;
+    background-color: #ECECEE;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 20px;
+    min-width: 500px;
+}
+.card_profile{
+    display: flex
+}
+.card_profile img {
+    width: 60px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.sub_category p {
+    background-color: #E4E4E7;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 10px;
+}
